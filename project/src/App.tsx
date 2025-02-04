@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Instagram, MessageCircle, User, Mail, MapPin, X } from 'lucide-react';
+import cachorro from "../images/cachorro.png";
 
 function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const galleryImages = ["project\\images\\cachorro.png"];
+  const galleryImages = [cachorro];
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white">
