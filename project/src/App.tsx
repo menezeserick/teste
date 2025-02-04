@@ -55,18 +55,16 @@ function App() {
           <div className="w-full md:w-1/2 space-y-8">
             <h2 className="text-3xl sm:text-4xl font-bold tracking-tight">Sobre Mim</h2>
             <p className="text-zinc-400 leading-relaxed text-lg">
-              Com mais de 10 anos de experiência em arte corporal, especializo-me em designs personalizados 
-              que contam histórias únicas através da pele. Minha abordagem combina técnicas tradicionais 
-              com inovação moderna, criando peças que são verdadeiramente significativas para cada cliente.
+          	  Colocar aqui o texto que você quer mostrar no seu resumo
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
               <div className="flex items-center gap-3 text-zinc-400">
                 <MapPin className="w-6 h-6" />
-                <span className="text-lg">São Paulo, SP</span>
+                <span className="text-lg">Curitiba, PR</span>
               </div>
               <div className="flex items-center gap-3 text-zinc-400">
                 <User className="w-6 h-6" />
-                <span className="text-lg">10+ Anos de Experiência</span>
+                <span className="text-lg">20+ Anos de Experiência</span>
               </div>
             </div>
           </div>
