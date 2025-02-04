@@ -5,7 +5,7 @@ import minaneotrad from "../images/minaneotrad.png";
 import hana from "../images/hana.png";
 import leao from "../images/leao.png";
 import porco from "../images/porco.png";
-import headerImage from './images/header.png';
+import headerImage from '../images/header.png';
 
 
 
