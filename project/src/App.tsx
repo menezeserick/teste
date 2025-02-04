@@ -21,7 +21,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
-            backgroundImage: `url(${require('./project/images/header.png')})`
+            backgroundImage: 'url("https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&q=80")'
           }}
         />
         <div className="relative z-10 text-center px-6">
