@@ -16,7 +16,7 @@ function App() {
     "https://images.unsplash.com/photo-1598371839597-e48082b76c67?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1598371839519-741caf767fc7?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1598371839873-8f791b0c5ca8?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839846-124d6145ce3e?auto=format&fit=crop&q=80"
+    "https://images.unsplash.com/photo-1598371839846-124d6145ce3e?auto=format&fit=crop&q=80",
   ];
 
   return (
@@ -31,7 +31,7 @@ function App() {
         />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 tracking-tighter leading-none">
-            JOÃO<br className="sm:hidden" /> SILVA
+            EDUARDO<br className="sm:hidden" /> MECA
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-zinc-400 tracking-wide uppercase">
             Tattoo Artist
@@ -64,7 +64,7 @@ function App() {
               </div>
               <div className="flex items-center gap-3 text-zinc-400">
                 <User className="w-6 h-6" />
-                <span className="text-lg">20+ Anos de Experiência</span>
+                <span className="text-lg">25+ Anos de Experiência</span>
               </div>
             </div>
           </div>
