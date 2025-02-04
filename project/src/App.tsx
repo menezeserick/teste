@@ -1,11 +1,18 @@
 import React, { useState } from 'react';
 import { Instagram, MessageCircle, User, Mail, MapPin, X } from 'lucide-react';
 import cachorro from "../images/cachorro.png";
+import minaneotrad from "../images/minaneotrad.png";
+import hana from "../images/hana.png";
+import leao from "../images/leao.png";
+import porco from "../images/porco.png";
+
+
 
 function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const galleryImages = [cachorro];
+  const galleryImages = [cachorro, minaneotrad, hana, porco, leao];
+
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white">
@@ -14,7 +21,7 @@ function App() {
         <div 
           className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
           style={{
-            backgroundImage: 'url("https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&q=80")'
+            backgroundImage: `url(${require('./project/images/header.png')})`
           }}
         />
         <div className="relative z-10 text-center px-6">
@@ -122,7 +129,7 @@ function App() {
 
       {/* Footer */}
       <footer className="py-8 bg-zinc-800/50 text-center text-zinc-400">
-        <p className="text-sm">© 2024 João Silva Tattoo. Todos os direitos reservados.</p>
+        <p className="text-sm">© 2024 Edu Meca Tattoo. Todos os direitos reservados.</p>
       </footer>
 
       {/* Image Modal */}
