@@ -4,20 +4,7 @@ import { Instagram, MessageCircle, User, Mail, MapPin, X } from 'lucide-react';
 function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const galleryImages = [
-    "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1590246814883-57c511e76523?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1562962230-16e4623d36e6?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1586074299757-dc655f18518c?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1612451469466-c01c1a4c1929?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1581742988284-8e825c3e2ed9?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1542277531356-271d6d49aad4?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839765-c53ff464428d?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839597-e48082b76c67?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839519-741caf767fc7?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839873-8f791b0c5ca8?auto=format&fit=crop&q=80",
-    "https://imgur.com/a/lEepsfp",
-  ];
+  const galleryImages = ["/images/cachorro.png"];
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white">
