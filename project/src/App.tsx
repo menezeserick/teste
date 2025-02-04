@@ -116,13 +116,6 @@ function App() {
               <Instagram className="w-6 h-6" />
               <span className="text-lg font-medium">Instagram</span>
             </a>
-            <a
-              href="edumeca@icloud.com"
-              className="flex-1 flex items-center justify-center gap-3 bg-zinc-700 hover:bg-zinc-600 px-8 py-5 rounded-2xl transition-all duration-300 hover:scale-105"
-            >
-              <Mail className="w-6 h-6" />
-              <span className="text-lg font-medium">Email</span>
-            </a>
           </div>
         </div>
       </section>
