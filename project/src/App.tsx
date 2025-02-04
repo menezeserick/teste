@@ -16,7 +16,7 @@ function App() {
     "https://images.unsplash.com/photo-1598371839597-e48082b76c67?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1598371839519-741caf767fc7?auto=format&fit=crop&q=80",
     "https://images.unsplash.com/photo-1598371839873-8f791b0c5ca8?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839846-124d6145ce3e?auto=format&fit=crop&q=80",
+    "https://imgur.com/a/lEepsfp",
   ];
 
   return (
