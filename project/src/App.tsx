@@ -18,11 +18,10 @@ function App() {
     <div className="min-h-screen bg-zinc-900 text-white">
       {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center">
-        <div
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-30"
-          style={{
-            backgroundImage: 'url("/images/header.png")' // Reference from the public folder
-          }}
+        <img
+          src="/images/header.png"  // Caminho correto se a imagem estiver na pasta public/images
+          alt="Header Image"
+          className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 tracking-tighter leading-none">
