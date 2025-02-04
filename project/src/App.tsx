@@ -5,6 +5,7 @@ import minaneotrad from "../images/minaneotrad.png";
 import hana from "../images/hana.png";
 import leao from "../images/leao.png";
 import porco from "../images/porco.png";
+import headerImage from './images/header.png';
 
 
 
@@ -19,8 +20,7 @@ function App() {
       {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center">
         <img
-          src="../images/header.png"  // Caminho correto se a imagem estiver na pasta public/images
-          alt="Header Image"
+          src={headerImage} alt="Header"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
         <div className="relative z-10 text-center px-6">
