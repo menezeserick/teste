@@ -98,7 +98,7 @@ function App() {
           <h2 className="text-3xl sm:text-4xl font-bold mb-12">Entre em Contato</h2>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-stretch max-w-xl mx-auto">
             <a
-              href="https://wa.me/5511999999999"
+              href="https://wa.me/5541996549105"
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-3 bg-green-600 hover:bg-green-700 px-8 py-5 rounded-2xl transition-all duration-300 hover:scale-105"
@@ -107,7 +107,7 @@ function App() {
               <span className="text-lg font-medium">WhatsApp</span>
             </a>
             <a
-              href="https://instagram.com/tattooartist"
+              href="https://www.instagram.com/edumeca?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="
               target="_blank"
               rel="noopener noreferrer"
               className="flex-1 flex items-center justify-center gap-3 bg-purple-600 hover:bg-purple-700 px-8 py-5 rounded-2xl transition-all duration-300 hover:scale-105"
@@ -116,7 +116,7 @@ function App() {
               <span className="text-lg font-medium">Instagram</span>
             </a>
             <a
-              href="mailto:contato@tattooartist.com"
+              href="edumeca@icloud.com"
               className="flex-1 flex items-center justify-center gap-3 bg-zinc-700 hover:bg-zinc-600 px-8 py-5 rounded-2xl transition-all duration-300 hover:scale-105"
             >
               <Mail className="w-6 h-6" />
