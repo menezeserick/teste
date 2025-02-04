@@ -4,7 +4,7 @@ import { Instagram, MessageCircle, User, Mail, MapPin, X } from 'lucide-react';
 function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
-  const galleryImages = ["/images/cachorro.png"];
+  const galleryImages = ["project\\images\\cachorro.png"];
 
   return (
     <div className="min-h-screen bg-zinc-900 text-white">
