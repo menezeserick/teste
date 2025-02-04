@@ -6,6 +6,7 @@ import hana from "../images/hana.png";
 import leao from "../images/leao.png";
 import porco from "../images/porco.png";
 import headerImage from '../images/header.png';
+import aboutme from '../images/aboutme.png';
 
 
 
@@ -39,7 +40,7 @@ function App() {
           <div className="w-full md:w-1/2">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <img
-                src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?auto=format&fit=crop&q=80"
+                src={aboutme}
                 alt="Tattoo Artist"
                 className="w-full aspect-[4/5] object-cover"
               />
