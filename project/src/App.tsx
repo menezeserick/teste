@@ -5,18 +5,7 @@ function App() {
   const [selectedImage, setSelectedImage] = useState<string | null>(null);
 
   const galleryImages = [
-    "https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1590246814883-57c511e76523?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1562962230-16e4623d36e6?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1586074299757-dc655f18518c?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1612451469466-c01c1a4c1929?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1581742988284-8e825c3e2ed9?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1542277531356-271d6d49aad4?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839765-c53ff464428d?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839597-e48082b76c67?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839519-741caf767fc7?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839873-8f791b0c5ca8?auto=format&fit=crop&q=80",
-    "https://images.unsplash.com/photo-1598371839846-124d6145ce3e?auto=format&fit=crop&q=80"
+    require('./src/images/cachorro.png')
   ];
 
   return (
@@ -31,7 +20,7 @@ function App() {
         />
         <div className="relative z-10 text-center px-6">
           <h1 className="text-4xl sm:text-6xl md:text-8xl font-bold mb-6 tracking-tighter leading-none">
-            JOÃO<br className="sm:hidden" /> SILVA
+            EDU<br className="sm:hidden" /> MECA
           </h1>
           <p className="text-lg sm:text-xl md:text-2xl text-zinc-400 tracking-wide uppercase">
             Tattoo Artist
@@ -74,7 +63,7 @@ function App() {
       {/* Gallery Section */}
       <section className="py-20 bg-zinc-800/50">
         <div className="max-w-6xl mx-auto px-6 md:px-8">
-          <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">Trabalhos</h2>
+          <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">Projetos</h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
             {galleryImages.map((url, index) => (
               <div 
