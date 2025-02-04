@@ -19,7 +19,7 @@ function App() {
       {/* Hero Section */}
       <header className="relative h-screen flex items-center justify-center">
         <img
-          src="/images/header.png"  // Caminho correto se a imagem estiver na pasta public/images
+          src="../images/header.png"  // Caminho correto se a imagem estiver na pasta public/images
           alt="Header Image"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
         />
